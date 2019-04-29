@@ -1,0 +1,24 @@
+.shop-header {
+  align-items: center;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+}
+
+.shop-header .logo {
+  font-family: "Times New Roman", serif;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.shop-header .shopping-cart {
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+.shop-header .shopping-cart .icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
