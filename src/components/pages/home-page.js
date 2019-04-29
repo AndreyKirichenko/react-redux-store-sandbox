@@ -1,7 +1,10 @@
 import React from 'react';
+import BookList from '../book-list';
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <BookList />
+  );
 };
 
 export default HomePage;

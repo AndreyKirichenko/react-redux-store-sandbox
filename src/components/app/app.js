@@ -8,16 +8,18 @@ import './app.css';
 const App = () => {
 
   return (
-    <Switch>
-      <Route path='/'
-             component={HomePage}
-             exact
-      />
-      <Route path='/card'
-             component={CartPage}
-             exact
-      />
-    </Switch>
+    <main role='main' className='container'>
+      <Switch>
+        <Route path='/'
+               component={HomePage}
+               exact
+        />
+        <Route path='/card'
+               component={CartPage}
+               exact
+        />
+      </Switch>
+    </main>
   );
 };
 
